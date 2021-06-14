@@ -1,7 +1,19 @@
-nav{
-    width: 2000px;
-    height: 50px;
-    background-color:blue;
-    color: white;
 
+nav{
+    width: 200px;
+    height:30px;
+    background-color: rgb(82, 82, 163);
+    display: flex;
+    padding: 20px;
+}
+
+.facebook{
+    justify-content: flex-end;
+}
+
+div{
+    justify-content: flex-start;
+flex-direction: row;
+width: 15%;
+color: white;
 }
