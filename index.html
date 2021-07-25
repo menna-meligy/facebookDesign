@@ -3,32 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
 </head>
-    <style>
-        p{
-            color:red;
-        }
-        h1{
-            color:green;
-        }
-    </style>
 
 <body>
-    <p> Page </p>
-    <h1>page heading</h1> 
-    <nav>
-        <div class="nav">
-            <label> البريد الاكتروني </label>
-            <input type="email" name="email">
-        </div>
 
-        <div class="nav">
-            <label> كلمة السر</label>
-            <input type="password" name="pass">
-        </div>
-    </nav>
+    <button id="btn1" onclick="display()"> display Info</button>
+    <button id="btn2" onclick="clear()"> clear Info </button>
+    <select id="menu" multiple size="1" style="width:100px; height:100px; " onselect="style.backgroundcolor=lightgrey ">
+<option value="1"> option-1 </option>
+<option value="2"> option-2 </option>
+<option value="3"> option-3 </option>
+<option value="4"> option-4 </option>
+<option value="5"> option-5 </option>
+<option value="6"> option-6 </option>
+<option value="7"> option-7 </option>
+
+</select>
+    <div id="div1"> </div>
+    <div id="div2"> </div>
+
 </body>
 
 </html>
